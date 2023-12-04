@@ -1,0 +1,60 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Compiled Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Folders
+vendor/
+node_modules/
+dist/
+tmp/
+temp/
+build/
+bin/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# IDE/Editor folders
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.*.swp
+.*swo
+*~
+
+# Go-specific files
+*.test
+*.test.exe
+*.test.log
+*.bench
+*.bench.exe
+*.bench.log
+coverage.txt
+!go.mod
+!go.sum
+!*.go
+
+# Miscellaneous files
+.env
+.env.local
+secrets.yml
+*.tar.gz
+*.zip
